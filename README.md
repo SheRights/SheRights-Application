@@ -1,11 +1,16 @@
 # SheRights - Women's Safety and Empowerment Application
 
+<img src="https://static.wixstatic.com/media/9c5d56_fff85c81cc66455fbb8a88bcfe5a307d~mv2.png/v1/fill/w_640,h_512,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/9c5d56_fff85c81cc66455fbb8a88bcfe5a307d~mv2.png" alt="alt text" width="100%" height=600>
+
+
 ## Table of Contents
 <ol>
 <li>Introduction</li>
 <li>Features</li>
 <li>Installation</li>
-<li>Usage</li>
+<li>Configuration</li>
+<li>Conclusion</li>
+<li>Running the application</li>
 <li>Contributing</li>
 </ol>
 
@@ -67,9 +72,19 @@ The application provides users with access to resources such as Police Stations 
 ## Installation
 To run this app, follow the steps below:
 <ol>
-<li>Clone the repository.</li>
+<li>Clone the repository, open cmd in the desired folder and type:</li>
+
+```
+git clone https://github.com/SheRights/SheRights-Application.git
+```
+
 <li>Navigate to the project's root directory.</li>
-<li>Install the project dependencies using npm install.</li>
+<li>Install the project dependencies using:</li>
+
+```
+npm install
+```
+
 </ol>
 
 ## Configuration
@@ -84,8 +99,18 @@ SheRights uses Firebase for authentication and database. To use Firebase in the 
 ## Running the Application
 To run the application on your device or emulator, run the following command:
 <ol>
-<li>Open command prompt in your root directory and run npx react-native start.</li>
-<li>Open command prompt in your root directory and run npx react-native run-android.</li>
+<li>Open command prompt in your root directory and run:</li>
+
+```
+npx react-native start
+```
+
+<li>Open command prompt in your root directory and run:</li>
+
+```
+npx react-native run-android
+```
+
 </ol>
 This will start the React server and open the React Developer Tools in your prompt. From here, you can choose to run the app on a physical device, emulator and start the test runner and run all the tests for the application.
 
